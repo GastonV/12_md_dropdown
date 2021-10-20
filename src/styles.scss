@@ -1,4 +1,29 @@
-@import "./assets/styles/flexboxgrid.scss";
 @import "./assets/styles/reset.scss";
+@import "./assets/styles/globals.scss";
+@import "./assets/styles/flexboxgrid.scss";
+@import "./assets/styles/helper.scss";
 
+body{
+    background-color: #E5E5E5;
+}
+.dropdown{
+    background-color: #FFFFFF;
+}
+.dropdown__choice {
+    background: #FFFFFF;
+    /* Contrast 5% (Light) */
 
+    border: 1px solid rgba(25, 59, 103, 0.05);
+    /* Shadow XL */
+
+    box-shadow: 0px 18px 64px -8px rgba(28, 50, 79, 0.38), 0px 4px 24px -3px rgba(28, 55, 90, 0.16);
+    border-radius: 4px;
+}
+.button__dropdown{
+    background: #246CE2;
+    border-radius: 4px;
+    padding: 20px 60px;
+    color: #FFFFFF;
+    font-size: 17px;
+
+}
