@@ -2,7 +2,6 @@ const dropdown = document.querySelector(".js_dropdown");
 const btn = document.querySelector(".button__dropdown");
 const outsideScope = document.querySelector(".dropdown");
 
-const createDropdownButton: HTMLElement[] = [];
 const ahrefValues = ["Kaķis", "Sašliks", "All above"];
 
 ahrefValues.forEach((listitems) => {
